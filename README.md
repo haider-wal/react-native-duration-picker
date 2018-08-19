@@ -42,8 +42,8 @@ import RNDurationPicker from 'react-native-duration-picker';
 RNDurationPicker.open({
 	hour: 3,
 	minute: 16,
-  interval: 4,
-  title: 'Austin'
+	interval: 1,
+	title: 'Austin'
 }).then(result => {
 	if (result.action === 'setAction') {
 		const duration = (result.hour * 60 * 60) + (result.minute * 60);

@@ -1,7 +1,7 @@
 {
   "name": "react-native-duration-picker",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.2",
+  "description": "Duration picker for React Native",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,5 +13,8 @@
   "license": "",
   "peerDependencies": {
     "react-native": "^0.41.2"
+  },
+  "dependencies": {
+    "rnkit-actionsheet-picker": "haider-wal/rnkit-actionsheet-picker"
   }
 }
